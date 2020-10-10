@@ -1,0 +1,38 @@
+{
+  "name": "ts-boxed",
+  "version": "0.0.0",
+  "description": "Like Scheme boxes but for TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm t && tsc",
+    "test": "jest --coverage",
+    "test:dev": "jest --coverage --changedSince=main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dliv/ts-boxed.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "ts",
+    "Scheme",
+    "Racket",
+    "box",
+    "double",
+    "pointer"
+  ],
+  "author": "dliv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dliv/ts-boxed/issues"
+  },
+  "homepage": "https://github.com/dliv/ts-boxed#readme",
+  "devDependencies": {
+    "@types/jest": "26.0.14",
+    "jest": "26.5.2",
+    "prettier": "2.1.2",
+    "ts-jest": "26.4.1",
+    "typescript": "4.0.3"
+  }
+}
